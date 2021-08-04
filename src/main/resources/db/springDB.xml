@@ -16,13 +16,13 @@
 
 <!--    <context:property-placeholder location="classpath:db/postgresql.properties" system-properties-mode="OVERRIDE"/>-->
 
-    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="url" value="postgres://mjztzwmxpvpepy:51531318d748209ced52356e08506be00288fb5af4eef0e4ce770ecc80906629@ec2-52-19-96-181.eu-west-1.compute.amazonaws.com:5432/d8bvhbosdbkm64"/>
-        <property name="username" value="mjztzwmxpvpepy"/>
-        <property name="password" value="51531318d748209ced52356e08506be00288fb5af4eef0e4ce770ecc80906629"/>
-        <property name="driverClassName" value="org.postgresql.Driver"/>
-    </bean>
 
+            <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+                <property name="url" value="jdbc:postgresql://ec2-44-194-225-27.compute-1.amazonaws.com:5432/da65h06v1n1s61"/>
+                <property name="username" value="ckzffqwinwiutd"/>
+                <property name="password" value="7df1400a93cbafac3daac1767a0e6d1b10b75a469cc9c6dbeb0e90e57bc3b224"/>
+                <property name="driverClassName" value="org.postgresql.Driver"/>
+            </bean>
 
 <!--        <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
 <!--            <property name="url" value="jdbc:postgresql://localhost:5432/for_security_test"/>-->
