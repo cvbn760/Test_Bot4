@@ -91,7 +91,7 @@
           <programs>
             <program>
               <mainClass>com.telega.test.Main</mainClass>
-              <name>workerBot</name>
+              <name>TelegramBot</name>
             </program>
           </programs>
         </configuration>
