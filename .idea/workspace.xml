@@ -5,120 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402667ed-7c50-412d-936e-30e4a1f8c7ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telega/test/AuthYandex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telega/test/Translate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telega/test/model/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telega/test/model/Translations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telega/test/model/YandexToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TelegramBot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TelegramBot.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bin/TelegramBot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bin/TelegramBot.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/antlr/antlr/2.7.7/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/antlr/antlr/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/aopalliance/aopalliance/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/aopalliance/aopalliance/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/ch/qos/logback/logback-classic/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/ch/qos/logback/logback-classic/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/ch/qos/logback/logback-core/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/ch/qos/logback/logback-core/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/classmate/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/fasterxml/classmate/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-annotations/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-annotations/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-core/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-core/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-databind/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-databind/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/github/xabgesagtx/telegram-spring-boot-starter/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/github/xabgesagtx/telegram-spring-boot-starter/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/code/findbugs/jsr305/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/google/code/findbugs/jsr305/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/errorprone/error_prone_annotations/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/google/errorprone/error_prone_annotations/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/guava/failureaccess/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/google/guava/failureaccess/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/guava/guava/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/google/guava/guava/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/guava/listenablefuture/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/google/guava/listenablefuture/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/inject/guice/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/google/inject/guice/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/j2objc/j2objc-annotations/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/google/j2objc/j2objc-annotations/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/sun/activation/jakarta.activation/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/sun/activation/jakarta.activation/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/sun/istack/istack-commons-runtime/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/sun/istack/istack-commons-runtime/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/sun/xml/fastinfoset/FastInfoset/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/sun/xml/fastinfoset/FastInfoset/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/zaxxer/HikariCP/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/com/zaxxer/HikariCP/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-codec/commons-codec/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/commons-codec/commons-codec/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-io/commons-io/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/commons-io/commons-io/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-logging/commons-logging/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/commons-logging/commons-logging/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/activation/jakarta.activation-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/annotation/jakarta.annotation-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/jakarta/annotation/jakarta.annotation-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/persistence/jakarta.persistence-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/transaction/jakarta.transaction-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/jakarta/transaction/jakarta.transaction-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/validation/jakarta.validation-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/jakarta/validation/jakarta.validation-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/ws/rs/jakarta.ws.rs-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/jakarta/ws/rs/jakarta.ws.rs-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/jakarta/xml/bind/jakarta.xml.bind-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/jakarta/xml/bind/jakarta.xml.bind-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/javax/activation/javax.activation-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/javax/activation/javax.activation-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/javax/inject/javax.inject/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/javax/inject/javax.inject/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/javax/persistence/javax.persistence-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/javax/persistence/javax.persistence-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/javax/validation/validation-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/javax/validation/validation-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/javax/xml/bind/jaxb-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/javax/xml/bind/jaxb-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/bytebuddy/byte-buddy/1.10.21/byte-buddy-1.10.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/bytebuddy/byte-buddy/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpclient/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpclient/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpcore/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpcore/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpmime/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpmime/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-to-slf4j/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-to-slf4j/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/aspectj/aspectjweaver/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/aspectj/aspectjweaver/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/checkerframework/checker-qual/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/checkerframework/checker-qual/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/codehaus/mojo/animal-sniffer-annotations/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/codehaus/mojo/animal-sniffer-annotations/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/dom4j/dom4j/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/dom4j/dom4j/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/example/TelegramBot/1.0-SNAPSHOT/TelegramBot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/example/TelegramBot/1.0-SNAPSHOT/TelegramBot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/example/TelegramBot/1.0-SNAPSHOT/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/example/TelegramBot/1.0-SNAPSHOT/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/example/TelegramBot/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/example/TelegramBot/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/grizzly/grizzly-framework/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/grizzly/grizzly-framework/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/grizzly/grizzly-http-server/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/grizzly/grizzly-http-server/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/grizzly/grizzly-http/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/grizzly/grizzly-http/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/external/aopalliance-repackaged/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/external/aopalliance-repackaged/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/external/jakarta.inject/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/external/jakarta.inject/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/hk2-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/hk2-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/hk2-locator/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/hk2-locator/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/hk2-utils/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/hk2-utils/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/osgi-resource-locator/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/hk2/osgi-resource-locator/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jaxb/jaxb-runtime/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jaxb/jaxb-runtime/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jaxb/txw2/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jaxb/txw2/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/containers/jersey-container-grizzly2-http/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/containers/jersey-container-grizzly2-http/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/core/jersey-client/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/core/jersey-client/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/core/jersey-common/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/core/jersey-common/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/core/jersey-server/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/core/jersey-server/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/ext/jersey-entity-filtering/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/ext/jersey-entity-filtering/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/inject/jersey-hk2/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/inject/jersey-hk2/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/media/jersey-media-jaxb/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/media/jersey-media-jaxb/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/media/jersey-media-json-jackson/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/glassfish/jersey/media/jersey-media-json-jackson/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/hibernate/common/hibernate-commons-annotations/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/hibernate/common/hibernate-commons-annotations/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/hibernate/hibernate-core/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/hibernate/hibernate-core/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/hibernate/validator/hibernate-validator/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/hibernate/validator/hibernate-validator/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/javassist/javassist/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/javassist/javassist/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jboss/jandex/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/jboss/jandex/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jboss/logging/jboss-logging/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/jboss/logging/jboss-logging/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/json/json/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/json/json/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jvnet/staxex/stax-ex/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/jvnet/staxex/stax-ex/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/postgresql/postgresql/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/postgresql/postgresql/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/jul-to-slf4j/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/slf4j/jul-to-slf4j/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-api/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-autoconfigure/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-autoconfigure/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-aop/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-aop/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-data-jpa/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-data-jpa/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-jdbc/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-jdbc/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-logging/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter-logging/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot-starter/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/boot/spring-boot/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/data/spring-data-commons/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/data/spring-data-commons/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/data/spring-data-jpa/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/data/spring-data-jpa/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-aop/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-aop/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-aspects/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-aspects/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-beans/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-beans/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-context/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-context/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-core/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-core/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-expression/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-expression/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-jcl/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-jcl/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-jdbc/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-jdbc/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-orm/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-orm/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/springframework/spring-tx/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/springframework/spring-tx/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/telegram/telegrambots-meta/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/telegram/telegrambots-meta/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/telegram/telegrambots/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/telegram/telegrambots/maven-metadata-appassembler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/yaml/snakeyaml/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/org/yaml/snakeyaml/maven-metadata-appassembler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/CvbnBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telega/test/CvbnBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telega/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/TelegramUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/UpdateReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/hand/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/hand/HelpHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/hand/QuizHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/hand/RegistrationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/hand/StartHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/model/AbstractBaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/model/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/repository/JpaQuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telega/test/repository/JpaUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/initDB.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/populateDB.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/postgersql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/springDB.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/CvbnBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/telega/test/CvbnBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/telega/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/TelegramUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/UpdateReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/hand/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/hand/HelpHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/hand/QuizHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/hand/RegistrationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/hand/StartHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/model/AbstractBaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/model/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/repository/JpaQuestionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telega/test/repository/JpaUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/initDB.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/populateDB.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/postgersql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/springDB.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -154,7 +90,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBoot/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -162,10 +98,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\hdd\Java\Test_Bot4\Test_Bot4" />
       <recent name="S:\hdd\Java\TelegramBot\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\hdd\Java\TelegramBot\src\main\resources" />
       <recent name="S:\hdd\Java\TelegramBot\src\main\resources\db" />
     </key>
   </component>
@@ -193,6 +129,115 @@
       <updated>1627236191694</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:jul-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.xml.bind:jakarta.xml.bind-api" />
+    <option featureType="dependencySupport" implementationName="java:org.javassist:javassist" />
+    <option featureType="dependencySupport" implementationName="java:com.zaxxer:HikariCP" />
+    <option featureType="dependencySupport" implementationName="java:io.grpc:grpc-context" />
+    <option featureType="dependencySupport" implementationName="java:com.google.http-client:google-http-client" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.core:jersey-common" />
+    <option featureType="dependencySupport" implementationName="java:com.google.j2objc:j2objc-annotations" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.gson:gson" />
+    <option featureType="dependencySupport" implementationName="java:org.aspectj:aspectjweaver" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml:classmate" />
+    <option featureType="dependencySupport" implementationName="java:commons-io:commons-io" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:hk2-api" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:jaxb-runtime" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-classic" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.errorprone:error_prone_annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:txw2" />
+    <option featureType="dependencySupport" implementationName="java:com.google.http-client:google-http-client-gson" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-tx" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.core:jersey-client" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:listenablefuture" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2.external:aopalliance-repackaged" />
+    <option featureType="dependencySupport" implementationName="java:com.github.xabgesagtx:telegram-spring-boot-starter" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jcl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.media:jersey-media-jaxb" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-aop" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpcore" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-core" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.grizzly:grizzly-framework" />
+    <option featureType="dependencySupport" implementationName="java:org.checkerframework:checker-qual" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.json:json" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-databind" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss.logging:jboss-logging" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:guava" />
+    <option featureType="dependencySupport" implementationName="java:org.yaml:snakeyaml" />
+    <option featureType="dependencySupport" implementationName="java:antlr:antlr" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:org.postgresql:postgresql" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-expression" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.ext:jersey-entity-filtering" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpclient" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.transaction:jakarta.transaction-api" />
+    <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy" />
+    <option featureType="dependencySupport" implementationName="java:javax.inject:javax.inject" />
+    <option featureType="dependencySupport" implementationName="java:commons-codec:commons-codec" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.jaxrs:jackson-jaxrs-base" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.grizzly:grizzly-http-server" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss:jandex" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aspects" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.telegram:telegrambots" />
+    <option featureType="dependencySupport" implementationName="java:org.dom4j:dom4j" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-beans" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.common:hibernate-commons-annotations" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.ws.rs:jakarta.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:osgi-resource-locator" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.grizzly:grizzly-http" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.inject:jersey-hk2" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.activation:jakarta.activation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.telegram:telegrambots-meta" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.core:jersey-server" />
+    <option featureType="dependencySupport" implementationName="java:com.mashape.unirest:unirest-java" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.xml.fastinfoset:FastInfoset" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-jaxb-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpasyncclient" />
+    <option featureType="dependencySupport" implementationName="java:commons-logging:commons-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.checkerframework:checker-compat-qual" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.containers:jersey-container-grizzly2-http" />
+    <option featureType="dependencySupport" implementationName="java:org.jvnet.staxex:stax-ex" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-annotations" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-core" />
+    <option featureType="dependencySupport" implementationName="java:aopalliance:aopalliance" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.annotation:jakarta.annotation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:hk2-locator" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-orm" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.media:jersey-media-json-jackson" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpcore-nio" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.findbugs:jsr305" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2.external:jakarta.inject" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpmime" />
+    <option featureType="dependencySupport" implementationName="java:io.opencensus:opencensus-contrib-http-util" />
+    <option featureType="dependencySupport" implementationName="java:io.opencensus:opencensus-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-context" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.istack:istack-commons-runtime" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aop" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:failureaccess" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:hk2-utils" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.activation:jakarta.activation" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-api" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
